@@ -3,7 +3,7 @@ const morgan=require("morgan");
 const app=express();
 const PORT=3000
 
-
+// MiddleWare
 // const logMiddleware=(req,res,next)=>{
 //     req.data="Hello from middleware";
 //     console.log("Request url:", req.url,"Method:", req.method);
