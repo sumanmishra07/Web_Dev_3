@@ -4,8 +4,9 @@ const studentRoutes=require("./routes/studentRoutes");
 const students=require("./data/studentData");
 const app=express();
 const PORT=3000
+// it handles the json data coming from the client
 
-app.use(express.json()); //it handles the json data coming from the client//encode
+app.use(express.json()); //encode
 
 app.use("api/students",studentRoutes);
 
