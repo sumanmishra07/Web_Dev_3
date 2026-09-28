@@ -1,6 +1,6 @@
 const express=require("express");
 const app=express();
-
+// Student list 
 const users=[
     {id:1, name:"Devendra", email:"GZDlC@example.com"},
     {id:2, name:"Ravi", email:"ravi@com"},
