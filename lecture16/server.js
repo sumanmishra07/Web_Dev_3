@@ -20,7 +20,7 @@ const apiMiddleware=(req,res,next)=>{
 }
 
 //  app.use(logMiddleware);
-//  global middleware
+// Global Middleware
 // app.use(apiMiddleware);
 
 app.get("/",(req,res)=>{
