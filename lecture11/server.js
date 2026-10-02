@@ -2,7 +2,8 @@ const express=require("express")
 const app=express();
 const PORT=3000
 // JSON data parse
-app.use(express.json());     //midleware
+// MIDDLEWARE
+app.use(express.json());     
 
 app.get("/:id",(req,res)=>{
     const id=req.params.id;
