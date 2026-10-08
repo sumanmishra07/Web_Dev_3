@@ -4,7 +4,8 @@ const PORT=3000
 // CRUD OPERATIONS
 // Create , Read , Update , Delete
 
-app.use(express.json()); //it handles the json data coming from the client//encode
+app.use(express.json());
+ //it handles the json data coming from the client//encode
 
 const students=[
     {rollNo:1, name:"Krishn", section:"Core-B"},
