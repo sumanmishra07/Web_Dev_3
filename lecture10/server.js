@@ -2,7 +2,7 @@ const express=require("express");
 const app=express();
 const PORT=3000
 // CRUD OPERATIONS
-// Create , Read , Update , Delete
+// Create , Read , Update , DeletE
 
 app.use(express.json());
  //it handles the json data coming from the client//encode
