@@ -1,6 +1,6 @@
 const express=require("express")
 const app=express();
-const PORT=3000
+const PORT=3000 
 // JSON DATA PARSE
 // MIDDLEWARE
 app.use(express.json());     
